@@ -1,0 +1,141 @@
+.p-Home.Div2{
+    margin-left: -20px;
+}
+.p-Home.Flex17{
+    white-space: nowrap;
+}
+// fade up animation
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0,50%,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+// fade down animation
+@keyframes fadeDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0,-60%,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+// Fade up end
+
+// fade right start
+@keyframes fadeRight {
+	from {
+		opacity: 0;
+		transform: translate3d(-30%, 0,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+// fade right end
+// fade left start
+@keyframes fadeLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(30%, 0,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+// fade left end
+
+// animation of nav bar start
+.p-Home.TextBox1{
+    animation: 1s fadeDown  0.5s linear;
+}
+.p-Home.Flex2{
+
+    animation: 1s fadeDown  0.5s linear;
+}
+
+.p-Home.Button1{
+
+    animation: 1s fadeDown  0.5s linear;
+}
+
+// animation of nav bar en
+// animation of hero sectio sstart
+.p-Home.TextBox5{
+
+    animation: 1.3s fadeDown  0.7s linear;
+}
+
+.p-Home.Flex8{
+    animation: 1.3s fadeDown  0.7s linear;
+}
+.p-Home.Flex6{
+    animation: 1.3s fadeDown  0.7s linear;
+}
+.p-Home.Flex13{
+	animation: 1.3s fadeRight 0.7s linear;
+
+}
+.p-Home.TextBox14{
+    animation: 1.3s fadeDown 0.7s linear;
+
+}
+.p-Home.Flex19{
+    animation: 1.3s fadeDown 1.2s linear;
+
+}
+.p-Home.Image1{
+    animation: 1s fadeUp 1.5s linear;
+
+}
+
+// marquee 1 animation start
+@keyframes marquee {
+    from {
+      transform: translateX(300%);
+    }
+    to {
+      transform: translateX(-600%);
+    }
+  }
+  .p-Home.TextBox18{
+    animation: marquee 10s linear infinite;
+
+}
+.p-Home.TextBox22{
+    animation: marquee 10s linear infinite;
+
+}
+.p-Home.TextBox23{
+    animation: marquee 10s linear infinite;
+
+}
+
+.p-Home.TextBox61{
+    animation: marquee 10s linear infinite;
+
+}
+
+// marquee 1 animation end
+
+.p-Home.TextBox26{
+    animation: 0.2s fadeRight 1.3s linear;
+}
+.p-Home.Flex24{
+    animation: 0.2s fadeRight 1.3s linear;
+
+}
+.p-Home.Flex25{
+    animation: 0.2s fadeRight 1.3s linear;
+}
