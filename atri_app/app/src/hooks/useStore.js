@@ -175,6 +175,36 @@ const desktopModeProps = {
     "Flex50": {
       "callbacks": {}
     },
+    "Flex52": {
+      "callbacks": {}
+    },
+    "Flex53": {
+      "callbacks": {}
+    },
+    "Flex55": {
+      "callbacks": {}
+    },
+    "Flex56": {
+      "callbacks": {}
+    },
+    "Flex57": {
+      "callbacks": {}
+    },
+    "Flex58": {
+      "callbacks": {}
+    },
+    "Flex54": {
+      "callbacks": {}
+    },
+    "Flex59": {
+      "callbacks": {}
+    },
+    "Flex60": {
+      "callbacks": {}
+    },
+    "Flex61": {
+      "callbacks": {}
+    },
     "TextBox1": {
       "custom": {
         "text": "Tutordeck"
@@ -926,6 +956,214 @@ const desktopModeProps = {
     "TextBox59": {
       "custom": {
         "text": "Service"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox63": {
+      "custom": {
+        "text": "Our clients are companies, brands, and startups that keep the world going around."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox64": {
+      "custom": {
+        "text": "OUR SERVICE"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox65": {
+      "custom": {
+        "text": "Making Your"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox66": {
+      "custom": {
+        "text": "Ideas"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox67": {
+      "custom": {
+        "text": "Happen"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image8": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/dynamic-lines-abstract-background-3d-shadow-effects-and-fluid-gradients-modern-overlapping-forms-blue-presentation-business-corporate-background-400-261574735.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox68": {
+      "custom": {
+        "text": "Brand Desgin"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox69": {
+      "custom": {
+        "text": "Our clients are companies, brands, and startups that keep the world going around."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox70": {
+      "custom": {
+        "text": "Our clients are companies, brands, and startups that keep the world going around."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox71": {
+      "custom": {
+        "text": "UI/UX DESGIN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image9": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Abstract-Wallpaper-4K-Wallpaper-Aesthetic.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image10": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/48074.webp"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox72": {
+      "custom": {
+        "text": "Logo Desgin"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox73": {
+      "custom": {
+        "text": "Our clients are companies, brands, and startups that keep the world going around."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image11": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/kDad3L.webp"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox74": {
+      "custom": {
+        "text": "Development"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox75": {
+      "custom": {
+        "text": "Our clients are companies, brands, and startups that keep the world going around."
       },
       "callbacks": {
         "onClick": [

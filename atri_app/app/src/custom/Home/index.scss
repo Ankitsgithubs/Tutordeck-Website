@@ -10,10 +10,12 @@
 	from {
 		opacity: 0;
 		transform: translate3d(0,50%,0);
+       
 	}
 	to {
 		opacity: 1;
 		transform: translate3d(0,0,0);
+        
 	}
 }
 
@@ -34,7 +36,7 @@
 @keyframes fadeRight {
 	from {
 		opacity: 0;
-		transform: translate3d(-30%, 0,0);
+		transform: translate3d(-40%, 0,0);
 	}
 	to {
 		opacity: 1;
@@ -58,16 +60,16 @@
 
 // animation of nav bar start
 .p-Home.TextBox1{
-    animation: 1s fadeDown  0.5s linear;
+    animation: 1.5s fadeDown  0s linear;
 }
 .p-Home.Flex2{
 
-    animation: 1s fadeDown  0.5s linear;
+    animation: 1.5s fadeDown  0s linear;
 }
 
 .p-Home.Button1{
 
-    animation: 1s fadeDown  0.5s linear;
+    animation: 1.5s fadeDown  0s linear;
 }
 
 // animation of nav bar en
@@ -130,12 +132,309 @@
 // marquee 1 animation end
 
 .p-Home.TextBox26{
-    animation: 0.2s fadeRight 1.3s linear;
+    animation: 2s fadeRight 1s linear;
 }
 .p-Home.Flex24{
-    animation: 0.2s fadeRight 1.3s linear;
+    animation: 2s fadeRight 1s linear;
 
 }
 .p-Home.Flex25{
-    animation: 0.2s fadeRight 1.3s linear;
+    animation: 2s fadeRight 1s linear;
 }
+.p-Home.TextBox27{
+    animation: 2s fadeRight 1s linear;
+
+}
+.p-Home.TextBox28{
+    animation: 2s fadeRight 1s linear;
+
+}
+.p-Home.Image2{
+    animation: 2s fadeDown 1s linear;
+
+}
+.p-Home.Image3{
+    animation: 2s fadeDown 1s linear;
+
+}
+.p-Home.TextBox33{
+    animation: 2s fadeDown 1s linear;
+}
+.p-Home.TextBox38{
+    animation: 2s fadeDown 1s linear;
+
+}
+.p-Home.Flex29{
+    animation: 2s fadeRight 1s linear;
+
+}
+.p-Home.Flex30{
+    animation: 2s fadeRight 1s linear;
+
+}
+.p-Home.Image4{
+    animation-name: fadeDown;
+    animation-duration: 2s;
+  
+
+}
+@keyframes scaleDown {
+    from{
+        height: 10px;
+    }
+    to{
+        height: auto;
+    }
+    
+}
+// about us image section start
+
+.p-Home.TextBox40:after {
+	animation-delay: var(--animation-delay, 3s);
+	animation-iteration-count: var(--iterations, 10);
+	animation-duration: var(--duration, 2000ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.TextBox40 {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 500ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	animation-name: clip-text;
+	color: rgb(7, 7, 7);
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ffffff;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+	
+}
+
+    
+
+
+
+.p-Home.TextBox39::after {
+	animation-delay: var(--animation-delay, 3s);
+	animation-iteration-count: var(--iterations, 10);
+	animation-duration: var(--duration, 2000ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.TextBox39 {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 500ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	animation-name: clip-text;
+	color: rgb(7, 7, 7);
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ffffff;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+	
+}
+.p-Home.TextBox42:after {
+	animation-delay: var(--animation-delay, 3s);
+	animation-iteration-count: var(--iterations, 10);
+	animation-duration: var(--duration, 2000ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.TextBox42 {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 500ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	animation-name: clip-text;
+	color: rgb(7, 7, 7);
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ffffff;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+    
+
+}
+.p-Home.TextBox41:after {
+	animation-delay: var(--animation-delay, 3s);
+	animation-iteration-count: var(--iterations, 10);
+	animation-duration: var(--duration, 2000ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.TextBox41 {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 500ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	animation-name: clip-text;
+	color: rgb(7, 7, 7);
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ffffff;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+    
+
+}
+.p-Home.TextBox44:after {
+	animation-delay: var(--animation-delay, 3s);
+	animation-iteration-count: var(--iterations, 10);
+	animation-duration: var(--duration, 2000ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.TextBox44 {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 500ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	animation-name: clip-text;
+	color: rgb(7, 7, 7);
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ffffff;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+
+}
+.p-Home.TextBox43:after {
+	animation-delay: var(--animation-delay, 3s);
+	animation-iteration-count: var(--iterations, 10);
+	animation-duration: var(--duration, 2000ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.TextBox43 {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 500ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	animation-name: clip-text;
+	color: rgb(7, 7, 7);
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ffffff;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+
+}
+
+
+@keyframes clip-text {
+	from {
+		clip-path: inset(0 100% 0 0);
+        
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+        
+        
+	}
+}
+
+
+@keyframes text-revealer {
+	
+	0%, 50% {
+		transform-origin: 0 50%;
+        
+	}
+	
+	60%, 100% {
+		transform-origin: 100% 50%;		
+	}
+
+	
+	60% {
+		transform: scaleX(1);
+	}
+	
+	100% {
+		transform: scaleX(0);
+        
+	}
+}
+
+// about us image section end
