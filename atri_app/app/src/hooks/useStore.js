@@ -292,18 +292,6 @@ const desktopModeProps = {
     "Flex9": {
       "callbacks": {}
     },
-    "TextBox9": {
-      "custom": {
-        "text": "A"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox10": {
       "custom": {
         "text": "Creative"
@@ -319,6 +307,18 @@ const desktopModeProps = {
     "TextBox11": {
       "custom": {
         "text": "Agency"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox9": {
+      "custom": {
+        "text": "A"
       },
       "callbacks": {
         "onClick": [
@@ -794,9 +794,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox47": {
+    "TextBox48": {
       "custom": {
-        "text": "Our clients are companies, brands, and startups that keep the world going around."
+        "text": "Discover More"
       },
       "callbacks": {
         "onClick": [
@@ -806,9 +806,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox48": {
+    "TextBox47": {
       "custom": {
-        "text": "Discover More"
+        "text": "Our clients are companies, brands, and startups that keep the world going around."
       },
       "callbacks": {
         "onClick": [
