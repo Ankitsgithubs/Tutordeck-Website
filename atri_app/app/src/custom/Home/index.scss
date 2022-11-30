@@ -134,7 +134,7 @@
 .p-Home.TextBox26{
     animation: 2s fadeRight 1s linear;
 }
-.p-Home.Flex24{
+.p-Home.Flex24.reveals{
     animation: 2s fadeRight 1s linear;
 
 }
@@ -438,3 +438,19 @@
 }
 
 // about us image section end
+
+// making ideas happen start
+// .p-Home.Image8{
+//     animation: 5s scaleup  infinite;
+//     transition-duration: 3s;
+
+// }
+@keyframes scaleup {
+    from{
+        width :20px
+    }
+    to{
+        width: auto;
+    }
+}
+// making ideas end

@@ -58,6 +58,15 @@ const desktopModeProps = {
     "Flex8": {
       "callbacks": {}
     },
+    "Flex9": {
+      "callbacks": {}
+    },
+    "Flex62": {
+      "callbacks": {}
+    },
+    "Flex64": {
+      "callbacks": {}
+    },
     "Flex6": {
       "callbacks": {}
     },
@@ -289,7 +298,16 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex9": {
+    "Div4": {
+      "callbacks": {}
+    },
+    "Div5": {
+      "callbacks": {}
+    },
+    "Div6": {
+      "callbacks": {}
+    },
+    "Div7": {
       "callbacks": {}
     },
     "TextBox10": {
