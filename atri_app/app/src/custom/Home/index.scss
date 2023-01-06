@@ -1,9 +1,7 @@
 .p-Home.Div2{
     margin-left: -20px;
 }
-.p-Home.Flex17{
-    white-space: nowrap;
-}
+
 // fade up animation
 
 @keyframes fadeUp {
@@ -104,49 +102,40 @@
 
 // marquee 1 animation start
 @keyframes marquee {
-    from {
-      transform: translateX(300%);
-    }
-    to {
-      transform: translateX(-600%);
-    }
-  }
-  .p-Home.TextBox18{
-    animation: marquee 10s linear infinite;
-
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -100%;
+	}
 }
-.p-Home.TextBox22{
-    animation: marquee 10s linear infinite;
-
+.p-Home.Flex67{ 
+		animation:marquee 10s linear infinite;
+		// background-color: aqua;
 }
-.p-Home.TextBox23{
-    animation: marquee 10s linear infinite;
-
+.p-Home.Flex134{ 
+	animation:marquee 10s linear infinite;
+	// background-color: aqua;
 }
-
-.p-Home.TextBox61{
-    animation: marquee 10s linear infinite;
-
-}
-
 // marquee 1 animation end
 
-.p-Home.TextBox26{
-    animation: 2s fadeRight 1s linear;
-}
-.p-Home.Flex24.reveals{
-    animation: 2s fadeRight 1s linear;
+.p-Home.TextBox26.active{
+    animation: 1.3s fadeRight 0.1s linear;
 
 }
-.p-Home.Flex25{
-    animation: 2s fadeRight 1s linear;
+.p-Home.Flex24.active{
+    animation: 1.3s fadeRight 0.1s linear;
 }
-.p-Home.TextBox27{
-    animation: 2s fadeRight 1s linear;
+
+.p-Home.Flex25.active{
+    animation: 1.3s fadeRight 0.1s linear;
+}
+.p-Home.TextBox27.active{
+    animation: 1.3s fadeRight 0.2s linear;
 
 }
-.p-Home.TextBox28{
-    animation: 2s fadeRight 1s linear;
+.p-Home.TextBox28.active{
+    animation: 1.3s fadeRight 0.1s linear;
 
 }
 .p-Home.Image2{
@@ -157,22 +146,22 @@
     animation: 2s fadeDown 1s linear;
 
 }
-.p-Home.TextBox33{
-    animation: 2s fadeDown 1s linear;
+.p-Home.TextBox33.active{
+    animation: 1.5s fadeDown 0.2s linear;
 }
-.p-Home.TextBox38{
-    animation: 2s fadeDown 1s linear;
+.p-Home.TextBox38.active{
+    animation: 1.5s fadeDown 0.2s linear;
 
 }
-.p-Home.Flex29{
-    animation: 2s fadeRight 1s linear;
+.p-Home.Flex29.active{
+    animation: 1.6s fadeRight 0.2s linear;
 
 }
-.p-Home.Flex30{
-    animation: 2s fadeRight 1s linear;
+.p-Home.Flex30.active{
+    animation: 1.6s fadeRight 0.2s linear;
 
 }
-.p-Home.Image4{
+.p-Home.Image4.active{
     animation-name: fadeDown;
     animation-duration: 2s;
   
@@ -191,13 +180,13 @@
 
 .p-Home.TextBox40:after {
 	animation-delay: var(--animation-delay, 3s);
-	animation-iteration-count: var(--iterations, 10);
+	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 2000ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.TextBox40 {
+.TextBox40.active {
 	--animation-delay: var(--delay, 0);
 	--animation-duration: var(--duration, 500ms);
 	--animation-iterations: var(--iterations, 1);
@@ -230,13 +219,13 @@
 
 .p-Home.TextBox39::after {
 	animation-delay: var(--animation-delay, 3s);
-	animation-iteration-count: var(--iterations, 10);
+	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 2000ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.TextBox39 {
+.TextBox39.active{
 	--animation-delay: var(--delay, 0);
 	--animation-duration: var(--duration, 500ms);
 	--animation-iterations: var(--iterations, 1);
@@ -264,13 +253,13 @@
 }
 .p-Home.TextBox42:after {
 	animation-delay: var(--animation-delay, 3s);
-	animation-iteration-count: var(--iterations, 10);
+	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 2000ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.TextBox42 {
+.TextBox42.active {
 	--animation-delay: var(--delay, 0);
 	--animation-duration: var(--duration, 500ms);
 	--animation-iterations: var(--iterations, 1);
@@ -299,13 +288,13 @@
 }
 .p-Home.TextBox41:after {
 	animation-delay: var(--animation-delay, 3s);
-	animation-iteration-count: var(--iterations, 10);
+	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 2000ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.TextBox41 {
+.TextBox41.active {
 	--animation-delay: var(--delay, 0);
 	--animation-duration: var(--duration, 500ms);
 	--animation-iterations: var(--iterations, 1);
@@ -334,13 +323,13 @@
 }
 .p-Home.TextBox44:after {
 	animation-delay: var(--animation-delay, 3s);
-	animation-iteration-count: var(--iterations, 10);
+	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 2000ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.TextBox44 {
+.TextBox44.active {
 	--animation-delay: var(--delay, 0);
 	--animation-duration: var(--duration, 500ms);
 	--animation-iterations: var(--iterations, 1);
@@ -368,13 +357,13 @@
 }
 .p-Home.TextBox43:after {
 	animation-delay: var(--animation-delay, 3s);
-	animation-iteration-count: var(--iterations, 10);
+	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 2000ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.TextBox43 {
+.TextBox43.active {
 	--animation-delay: var(--delay, 0);
 	--animation-duration: var(--duration, 500ms);
 	--animation-iterations: var(--iterations, 1);
@@ -440,17 +429,147 @@
 // about us image section end
 
 // making ideas happen start
-// .p-Home.Image8{
-//     animation: 5s scaleup  infinite;
-//     transition-duration: 3s;
+.p-Home.Image8.active{
+    animation: 1.5s scaleup 0.2s linear;
+    transition-duration: 3s;
 
-// }
+}
+.p-Home.Image9.active{
+    animation: 1.5s scaleup 0.2s linear;
+    transition-duration: 3s;
+
+}
+.p-Home.Image10.active{
+    animation: 1.5s scaleup 0.2s linear;
+    transition-duration: 3s;
+
+}
+.p-Home.Image11.active{
+    animation: 1.5s scaleup 0.2s linear;
+    transition-duration: 3s;
+
+}
 @keyframes scaleup {
     from{
-        width :20px
+       transform: scaleX(0);
+	   opacity: 0;
+		
     }
     to{
-        width: auto;
+        transform:scaleX(0.5px);
+		opacity:1;
     }
 }
+
+
+
+.p-Home.Flex55.active{
+    animation: 1s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox63.active{
+    animation: 1s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox68.active{
+    animation: 1s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox69.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox70.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox71.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox72.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox73.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox74.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox75.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+
 // making ideas end
+
+
+// discover section start
+.p-Home.TextBox45.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox46.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox49.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox50.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.Flex43.active{
+    animation: 1.3s fadeRight 0.1s linear;
+
+}
+@keyframes scaleY {
+    from{
+       transform: scaleY(0);
+	   opacity: 0;
+		
+    }
+    to{
+        transform:scaleY(0.5px);
+		opacity:1;
+    }
+}
+.p-Home.Flex46.active{
+    animation: 1.3s scaleY 0.1s linear;
+
+}
+
+
+// discover section end
+
+
+// footer section starts
+.p-Home.TextBox51.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox53.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox56.active{
+    animation: 1.3s fadeUp 0.1s linear;
+
+}
+.p-Home.TextBox52.active{
+    animation: 1.3s scaleup 0.1s linear;
+
+}
+.p-Home.Flex51.active{
+    animation: 1.3s fadeDown 0.1s linear;
+
+}
+// footer section end
+.p-Home.Icon2{
+	background-color: aqua;
+}

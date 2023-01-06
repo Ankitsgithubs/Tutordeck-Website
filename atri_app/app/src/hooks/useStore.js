@@ -97,12 +97,6 @@ const desktopModeProps = {
     "Flex20": {
       "callbacks": {}
     },
-    "Div3": {
-      "callbacks": {}
-    },
-    "Flex17": {
-      "callbacks": {}
-    },
     "Flex21": {
       "callbacks": {}
     },
@@ -212,6 +206,174 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex61": {
+      "callbacks": {}
+    },
+    "Div9": {
+      "callbacks": {}
+    },
+    "Flex67": {
+      "callbacks": {}
+    },
+    "Flex70": {
+      "callbacks": {}
+    },
+    "Flex73": {
+      "callbacks": {}
+    },
+    "Flex71": {
+      "callbacks": {}
+    },
+    "Flex72": {
+      "callbacks": {}
+    },
+    "Flex76": {
+      "callbacks": {}
+    },
+    "Flex74": {
+      "callbacks": {}
+    },
+    "Flex75": {
+      "callbacks": {}
+    },
+    "Flex79": {
+      "callbacks": {}
+    },
+    "Flex77": {
+      "callbacks": {}
+    },
+    "Flex78": {
+      "callbacks": {}
+    },
+    "Flex82": {
+      "callbacks": {}
+    },
+    "Flex80": {
+      "callbacks": {}
+    },
+    "Flex81": {
+      "callbacks": {}
+    },
+    "Flex107": {
+      "callbacks": {}
+    },
+    "Flex103": {
+      "callbacks": {}
+    },
+    "Flex95": {
+      "callbacks": {}
+    },
+    "Flex96": {
+      "callbacks": {}
+    },
+    "Flex104": {
+      "callbacks": {}
+    },
+    "Flex97": {
+      "callbacks": {}
+    },
+    "Flex98": {
+      "callbacks": {}
+    },
+    "Flex105": {
+      "callbacks": {}
+    },
+    "Flex99": {
+      "callbacks": {}
+    },
+    "Flex100": {
+      "callbacks": {}
+    },
+    "Flex106": {
+      "callbacks": {}
+    },
+    "Flex101": {
+      "callbacks": {}
+    },
+    "Flex102": {
+      "callbacks": {}
+    },
+    "Div90": {
+      "callbacks": {}
+    },
+    "Flex134": {
+      "callbacks": {}
+    },
+    "Flex132": {
+      "callbacks": {}
+    },
+    "Flex124": {
+      "callbacks": {}
+    },
+    "Flex108": {
+      "callbacks": {}
+    },
+    "Flex109": {
+      "callbacks": {}
+    },
+    "Flex125": {
+      "callbacks": {}
+    },
+    "Flex110": {
+      "callbacks": {}
+    },
+    "Flex111": {
+      "callbacks": {}
+    },
+    "Flex126": {
+      "callbacks": {}
+    },
+    "Flex112": {
+      "callbacks": {}
+    },
+    "Flex113": {
+      "callbacks": {}
+    },
+    "Flex127": {
+      "callbacks": {}
+    },
+    "Flex114": {
+      "callbacks": {}
+    },
+    "Flex115": {
+      "callbacks": {}
+    },
+    "Flex133": {
+      "callbacks": {}
+    },
+    "Flex128": {
+      "callbacks": {}
+    },
+    "Flex116": {
+      "callbacks": {}
+    },
+    "Flex117": {
+      "callbacks": {}
+    },
+    "Flex129": {
+      "callbacks": {}
+    },
+    "Flex118": {
+      "callbacks": {}
+    },
+    "Flex119": {
+      "callbacks": {}
+    },
+    "Flex130": {
+      "callbacks": {}
+    },
+    "Flex120": {
+      "callbacks": {}
+    },
+    "Flex121": {
+      "callbacks": {}
+    },
+    "Flex131": {
+      "callbacks": {}
+    },
+    "Flex122": {
+      "callbacks": {}
+    },
+    "Flex123": {
       "callbacks": {}
     },
     "TextBox1": {
@@ -437,66 +599,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox25": {
-      "custom": {
-        "text": "Get started"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox18": {
-      "custom": {
-        "text": "Graphic Design"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox22": {
-      "custom": {
-        "text": "Brand Design"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox23": {
-      "custom": {
-        "text": "UI/UX Design"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox61": {
-      "custom": {
-        "text": "Development"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox26": {
       "custom": {
         "text": "ABOUT US"
@@ -571,7 +673,7 @@ const desktopModeProps = {
     },
     "TextBox32": {
       "custom": {
-        "text": "Desgin"
+        "text": "Design"
       },
       "callbacks": {
         "onClick": [
@@ -1190,6 +1292,390 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "TextBox90": {
+      "custom": {
+        "text": "GRAPHIC DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox91": {
+      "custom": {
+        "text": "UI/UX DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox92": {
+      "custom": {
+        "text": "BRAND DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox93": {
+      "custom": {
+        "text": "DEVELOPMENT"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div10": {
+      "callbacks": {}
+    },
+    "Div11": {
+      "callbacks": {}
+    },
+    "Div12": {
+      "callbacks": {}
+    },
+    "Div13": {
+      "callbacks": {}
+    },
+    "Div14": {
+      "callbacks": {}
+    },
+    "Div15": {
+      "callbacks": {}
+    },
+    "Div16": {
+      "callbacks": {}
+    },
+    "Div17": {
+      "callbacks": {}
+    },
+    "Div19": {
+      "callbacks": {}
+    },
+    "Div18": {
+      "callbacks": {}
+    },
+    "Div20": {
+      "callbacks": {}
+    },
+    "Div21": {
+      "callbacks": {}
+    },
+    "Div22": {
+      "callbacks": {}
+    },
+    "Div23": {
+      "callbacks": {}
+    },
+    "Div24": {
+      "callbacks": {}
+    },
+    "Div25": {
+      "callbacks": {}
+    },
+    "TextBox94": {
+      "custom": {
+        "text": "DEVELOPMENT"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox95": {
+      "custom": {
+        "text": "BRAND DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox96": {
+      "custom": {
+        "text": "UI/UX DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox97": {
+      "custom": {
+        "text": "GRAPHIC DESIGN"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div42": {
+      "callbacks": {}
+    },
+    "Div43": {
+      "callbacks": {}
+    },
+    "Div44": {
+      "callbacks": {}
+    },
+    "Div45": {
+      "callbacks": {}
+    },
+    "Div46": {
+      "callbacks": {}
+    },
+    "Div47": {
+      "callbacks": {}
+    },
+    "Div48": {
+      "callbacks": {}
+    },
+    "Div49": {
+      "callbacks": {}
+    },
+    "Div50": {
+      "callbacks": {}
+    },
+    "Div51": {
+      "callbacks": {}
+    },
+    "Div52": {
+      "callbacks": {}
+    },
+    "Div53": {
+      "callbacks": {}
+    },
+    "Div54": {
+      "callbacks": {}
+    },
+    "Div55": {
+      "callbacks": {}
+    },
+    "Div56": {
+      "callbacks": {}
+    },
+    "Div57": {
+      "callbacks": {}
+    },
+    "TextBox98": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox99": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox100": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox101": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div58": {
+      "callbacks": {}
+    },
+    "Div59": {
+      "callbacks": {}
+    },
+    "Div60": {
+      "callbacks": {}
+    },
+    "Div61": {
+      "callbacks": {}
+    },
+    "Div62": {
+      "callbacks": {}
+    },
+    "Div63": {
+      "callbacks": {}
+    },
+    "Div64": {
+      "callbacks": {}
+    },
+    "Div65": {
+      "callbacks": {}
+    },
+    "Div66": {
+      "callbacks": {}
+    },
+    "Div67": {
+      "callbacks": {}
+    },
+    "Div68": {
+      "callbacks": {}
+    },
+    "Div69": {
+      "callbacks": {}
+    },
+    "Div70": {
+      "callbacks": {}
+    },
+    "Div71": {
+      "callbacks": {}
+    },
+    "Div72": {
+      "callbacks": {}
+    },
+    "Div73": {
+      "callbacks": {}
+    },
+    "TextBox102": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox103": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox104": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox105": {
+      "custom": {
+        "text": "GET STARTED"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div74": {
+      "callbacks": {}
+    },
+    "Div75": {
+      "callbacks": {}
+    },
+    "Div76": {
+      "callbacks": {}
+    },
+    "Div77": {
+      "callbacks": {}
+    },
+    "Div78": {
+      "callbacks": {}
+    },
+    "Div79": {
+      "callbacks": {}
+    },
+    "Div80": {
+      "callbacks": {}
+    },
+    "Div81": {
+      "callbacks": {}
+    },
+    "Div82": {
+      "callbacks": {}
+    },
+    "Div83": {
+      "callbacks": {}
+    },
+    "Div84": {
+      "callbacks": {}
+    },
+    "Div85": {
+      "callbacks": {}
+    },
+    "Div86": {
+      "callbacks": {}
+    },
+    "Div87": {
+      "callbacks": {}
+    },
+    "Div88": {
+      "callbacks": {}
+    },
+    "Div89": {
+      "callbacks": {}
     }
   }
 }};
